@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio 1</title>
+
+        <link rel="stylesheet" href="gridCSS3.css">
+        <script src="gridJS3.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>BUSCA A PARELLA</h1>
+            <div style='font-size:80px;'>&#129510;</div>
+            <button id="btn" class="btn" onclick="mostrarJuego()">Empezar xogo</button>
+        </header>
+        <main id="main">
+            <section>
+                <div id="marco"></div>
+            </section>
+            <section id="cambiocolor">
+                <div>
+                    <label for="numero" class="editlabeltxt">INSERTA UN NÚMERO PAR</label> <br>
+                    <input type="number" id="numero" name="numero" required size="10" />
+                    <p id="error"></p>
+                </div>
+
+                <button id="botonJugar" class="btn" onclick="generarGrid()">XOGAR</button>
+                <p id="contador">0s</p>
+                <div id="aciertos"></div>
+            </section>
+        </main>
+    </body>
+</html>

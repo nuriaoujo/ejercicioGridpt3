@@ -1,0 +1,46 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #20328a;
+    }
+#main{
+    text-align: center;
+    visibility: hidden;
+}
+header{
+    text-align: center;
+}
+/*Marco*/
+#marco{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #6499E9;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+#btn{
+    visibility: visible;
+    margin-top: 25px;   
+}
+.btn {
+    padding: 9px;
+    border: 0;
+    background-color: #EEEEEE;
+}
+
+/*txt*/
+h1 {
+    margin-top: 40px;
+}
+
+#numero{
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    border: 1px solid #d4d3d3;
+}
+
+.editlabeltxt{
+    font-weight: bolder;
+}
